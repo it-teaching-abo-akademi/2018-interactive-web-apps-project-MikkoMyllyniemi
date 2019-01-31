@@ -1,0 +1,46 @@
+body {
+    background-color: gray;
+}
+
+th{
+  width: 87px;
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#scrolltable{
+  overflow: auto;
+  width: 350px;
+  height: 200px;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+#Portfolio{
+  border: 1px solid black;
+  width: 350px;
+  height: 350px;
+  float: right;
+  background-color: white;
+}
+
+#Xbutton{
+  float:right;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
